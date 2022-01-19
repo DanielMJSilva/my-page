@@ -65,3 +65,11 @@ body {
     font-size: 3.5rem;
   }
 }
+
+.fa-cover {
+  color: white;
+}
+
+.fa-cover:hover {
+  color: darkgray;
+}
