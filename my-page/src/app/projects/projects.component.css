@@ -1,0 +1,9 @@
+.git {
+    color: gray;
+    font-size: 30px;
+}
+
+.git:hover {
+    color: blue;
+    font-size: 30px;
+}
