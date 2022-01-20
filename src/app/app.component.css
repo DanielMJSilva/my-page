@@ -2,7 +2,14 @@
  * Globals
  */
 
+/* Background image */
 
+ .backdground-img {
+  background-image: url('../assets/images/px_by_Gre3g.png');
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100%;
+}
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -73,3 +80,5 @@ body {
 .fa-cover:hover {
   color: darkgray;
 }
+
+
