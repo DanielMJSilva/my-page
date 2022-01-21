@@ -13,7 +13,7 @@
 .backdground-img {
     background-image: url('../../assets/images/px_by_Gre3g.png');
     background-repeat: repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
     filter:url('../../assets/images/px_by_Gre3g.png');
    
