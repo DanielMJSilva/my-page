@@ -4,7 +4,7 @@
 }
 
 .git:hover {
-    color: blue;
+    color: rgb(255, 187, 0);
     font-size: 30px;
 }
 
@@ -14,12 +14,55 @@
     background-image: url('../../assets/images/px_by_Gre3g.png');
     background-repeat: repeat;
     height: auto;
-    width: 100%;
+    width: auto;
     filter:url('../../assets/images/px_by_Gre3g.png');
    
   }
 
 .bg-proj {
-    background-color: rgb(148, 148,148);
+    background-color: rgb(177, 177, 177);
 }
+
+
+/* Fade in Box Full Image */
+.container-fade {
+    position: relative;
+   
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container-fade:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container-fade:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #3f3f3f;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-align: center;
+   
+  }
   
